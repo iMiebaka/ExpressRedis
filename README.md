@@ -1,6 +1,6 @@
 # ExpressRedis
 <p align="center" >
-<img src="https://miro.medium.com/max/1200/1*4ZEonl9174VQzf2842OXpg.png" width=500 />
+<img src="https://miro.medium.com/max/1200/1*4ZEonl9174VQzf2842OXpg.png" />
 </p>
 
 ## Table of Contents
