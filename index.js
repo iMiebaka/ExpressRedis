@@ -12,7 +12,7 @@ client.connect();
 
 const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
-async function greet(req, res) {
+const greet = async (req, res) => {
   if (client.get("cacheKey")) {
     const result = await client.get("cacheKey");
     res.send(`Hello, I just waited ${JSON.parse(result)} ms`);
@@ -24,7 +24,7 @@ async function greet(req, res) {
       res.send(`Hello, I just waited ${between1and3seconds} ms`);
     });
   }
-}
+};
 
 app.get("/", greet);
 
