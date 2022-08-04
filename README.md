@@ -26,7 +26,7 @@ You'll need Node installed on your machine to get this to work
 cd ExpressRedis
 npm install && npm start
 ```
-[Lunch the app on your broswer](http://localhost:3001) 
+[Lunch the app on your browser](http://localhost:3001) 
 
 
 ## Usage <a name = "usage"></a>
