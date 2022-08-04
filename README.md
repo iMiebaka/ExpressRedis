@@ -15,7 +15,7 @@ I had a wonderfull talk with Abas and Chika, which inspired this implementation.
 Clone the Repo and make installations
 
 ```
-git clone XXX
+git clone git@github.com:iMiebaka/ExpressRedis.git
 ```
 
 ### Installing
@@ -23,10 +23,10 @@ You'll need Node installed on your machine to get this to work
 
 
 ```
-cd xxx
+cd ExpressRedis
 npm install && npm start
 ```
-[Lunch the app on your pc](http://localhost:3001) 
+[Lunch the app on your broswer](http://localhost:3001) 
 
 
 ## Usage <a name = "usage"></a>
